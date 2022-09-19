@@ -1,14 +1,11 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { BsFillFlagFill } from "react-icons/bs";
+
 import { useDispatch, useSelector } from "react-redux";
-import {
-    deletePotentialCountries,
-    setPotentialCountries,
+import { BsFillFlagFill } from "react-icons/bs";
+import {deletePotentialCountries,setPotentialCountries,
 } from "../redux/slices/potentialCountriesSlice";
-import {
-    selectDisplay,
-    deleteDisplayCountry,
+import {selectDisplay,deleteDisplayCountry,
 } from "../redux/slices/displayCountrySlice";
 
 const Header = () => {
